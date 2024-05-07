@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-color:white;
 }
 nav{
     background-color: #228B22;
@@ -7,7 +7,7 @@ nav{
     display:flex;
     height:100px;
     justify-content: space-between;
-    padding: 5px;
+    border: 5px solid black;
 }
 
 box{
@@ -15,5 +15,42 @@ box{
     background-color: white;
     text-align: center;
     padding: 25px; 
-    margin:20px 20px 20px 20px;
+    margin:20px 10px 20px 10px;
+}
+
+header{
+    width: 990px;
+    height: 300px;
+    background-color: #20B2AA;
+    padding: 5px;
+    display: flex;
+    border: 5px solid black;
+    justify-content: space-between;
+}
+
+banner{
+    padding-left: 800px;
+    padding-bottom:282px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+banner h1{
+    padding-left:45%;
+    padding-top:10%;
+}
+
+#sidebar{
+    margin-top:-5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header box{
+    height: 100px;
+    background-color: white;
+    margin-bottom: 2px;
+    margin-top:5px;
+    border: 1px solid black;
 }
