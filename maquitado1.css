@@ -53,3 +53,41 @@ header box{
     margin-top:5px;
     border: 1px solid black;
 }
+
+main{
+    background-color: #BDB76B;
+    width: 990px;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    border: 5px solid black;
+    justify-content: space-between;
+}
+
+.a-right{
+    background-color:white;
+    width:200px;
+    text-align: center;
+    padding-top:25%;
+}
+
+.a-left{
+    background-color:white;
+    width:200px;
+    text-align: center;
+    padding-top:25%;  
+}
+
+.article{
+    background-color:white;
+    width:580px;
+    text-align: center;
+    padding-top:25%; 
+}
+
+footer{
+    width: 1000px;
+    height:50px;
+    background-color:#FFD700;
+    border: 5px solid black;
+}
