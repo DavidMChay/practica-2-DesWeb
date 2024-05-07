@@ -1,0 +1,19 @@
+body{
+    background-color:black;
+}
+nav{
+    background-color: #228B22;
+    width:1000px;
+    display:flex;
+    height:100px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+box{
+    flex: 1;
+    background-color: white;
+    text-align: center;
+    padding: 25px; 
+    margin:20px 20px 20px 20px;
+}
