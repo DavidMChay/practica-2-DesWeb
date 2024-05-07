@@ -1,0 +1,38 @@
+body{
+    background-color:white;
+    font-family:arial;
+}
+
+header{
+    background-color:#4682B4;
+    width:750px;
+    height:250px;
+    display:flex;
+    border: 5px solid black;
+    justify-content: space-between;
+    padding:5px;
+}
+
+#banner{
+    background-color:white;
+    width:500px;
+}
+
+#banner h1{
+    padding-left:40%;
+    padding-top:15%;
+}
+
+#logo-1{
+    background-color:white;
+    width:240px;
+    text-align: center;
+    padding-top:15%;
+}
+
+nav{
+    background-color:	#9ACD32;
+    width:760px;
+    height:50px;
+    border: 5px solid black;
+}
